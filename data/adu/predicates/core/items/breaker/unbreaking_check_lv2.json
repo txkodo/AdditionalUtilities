@@ -1,0 +1,22 @@
+[
+  {
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "enchantments": [
+            {
+              "enchantment": "unbreaking",
+              "levels": 2
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "condition":"random_chance",
+    "chance": 0.333333
+  }
+]

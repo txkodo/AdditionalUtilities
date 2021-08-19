@@ -1,0 +1,21 @@
+{
+  "condition": "alternative",
+  "terms": [
+    {
+      "condition": "reference",
+      "name": "adu:core/items/breaker/unbreaking_check_no"
+    },
+    {
+      "condition": "reference",
+      "name": "adu:core/items/breaker/unbreaking_check_lv1"
+    },
+    {
+      "condition": "reference",
+      "name": "adu:core/items/breaker/unbreaking_check_lv2"
+    },
+    {
+      "condition": "reference",
+      "name": "adu:core/items/breaker/unbreaking_check_lv3"
+    }
+  ]
+}
