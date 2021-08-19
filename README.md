@@ -12,6 +12,7 @@
 ###### 方法1: Git経由でDL
 
 gitが導入されている場合はminecraftセーブデータのdatapacksフォルダ内でターミナルを起動しリポジトリをクローン
+
 ``$ git clone https://github.com/txkodo/AdditionalUtilities``
 
 ###### 方法2: Zip形式でDL
@@ -21,11 +22,13 @@ github右上の緑色の[Code]ボタンからDownload Zipを押下し、minecraf
 #### 手順2: minecraft内で有効化する
 
 minecraftで該当ワールドを開くことで自動的に導入される。
+
 導入成功ログが出ることを確認する
 
 ###### 導入成功ログが出なかった場合
 
 minecraft内で下記コマンドを打つ
+
 ``/function adu:core/init``
 
 
@@ -37,7 +40,9 @@ minecraft内で下記コマンドを打つ
 ### breaker
 
 目の前にあるブロックを内部インベントリのツールで破壊する。
+
 左上スロットに破壊ツールを入れることで正面のブロックを破壊し、右スロットに採掘結果が入る。
+
 ![breaker](readme_img/breaker.png)
 
 
@@ -47,6 +52,7 @@ minecraft内で下記コマンドを打つ
 ### chunk_loader
 
 設置されたチャンクを常に読み込む。
+
 ![chunk_loader](readme_img/chunk_loader.png)
 
 
@@ -54,5 +60,7 @@ minecraft内で下記コマンドを打つ
 ### funnel
 
 中に入れた5種のアイテムだけを繋げたチェストに搬入する仕分けホッパー
+
 横方向搬入の場合は直下、下方向搬入の場合は設置したときに向いていた方向にインベントリのあるブロックを置くと動作しなくなるので注意
+
 ![funnel](readme_img/funnel.png)
