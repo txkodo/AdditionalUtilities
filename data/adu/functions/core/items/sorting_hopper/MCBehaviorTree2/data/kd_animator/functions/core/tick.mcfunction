@@ -1,0 +1,1 @@
+execute as @e[tag=kd_animation] run function kd_animator:core/tick_

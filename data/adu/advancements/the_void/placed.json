@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:chest",
+        "item": {
+          "item": "minecraft:chest",
+          "nbt": "{display:{Name:'{\"italic\":false,\"text\":\"The Void\"}'}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "adu:core/items/the_void/placed/main"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "adu:funnel/-"
+      }
+    }
+  },
+  "rewards": {
+    "function": "adu:core/items/funnel/craft"
+  }
+}

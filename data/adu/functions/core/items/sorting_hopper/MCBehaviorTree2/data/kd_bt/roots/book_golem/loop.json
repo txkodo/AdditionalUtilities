@@ -1,0 +1,5 @@
+{
+  "enable": true,
+  "decorators": [{ "type": "loop" },{ "type": "log/result" }],
+  "type": "##TREE_CHILD"
+}

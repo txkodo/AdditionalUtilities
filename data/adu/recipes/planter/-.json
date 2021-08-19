@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "BHB",
+        "WFW",
+        "III"
+    ],
+    "key": {
+        "H": {
+            "item": "minecraft:diamond_hoe"
+        },
+        "B": {
+            "item": "minecraft:bone_meal"
+        },
+        "F": {
+            "item": "minecraft:furnace"
+        },
+        "I": {
+            "item": "minecraft:iron_block"
+        },
+        "W": {
+            "item": "minecraft:water_bucket"
+        }
+    },
+    "result": {
+        "item": "minecraft:blast_furnace",
+        "count": 1
+    }
+}

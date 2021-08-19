@@ -1,0 +1,29 @@
+{
+  "enable":false,
+  "type":"sub",
+  "root":"seq",
+  "seq":{
+    "type":"p-all",
+    "childs":{
+      "parent":{
+        "decorators":[{"type":"loop"}],
+        "type":"all",
+        "childs":{
+          "summon":{
+            "type":"summon_linked",
+            "arg":{"entity":"chicken","nbt":"{Tags:[kdbtt,kd_]}"}
+          },
+          "wait1":{
+            "type":"wait_score",
+            "arg":{"tick":"40","score":"waitsc"}
+          }
+        }
+      },
+      "child":{
+        "decorators":[{"type":"result/running"},{"type":"as/all","arg":{"as":"@e[type=minecraft:chicken]","max":"32","score":"sc2","tag":"sc2"}}],
+        "type":"SUBTREE",
+        "arg":{"name":"te/test2"}
+      }
+    }
+  }
+}

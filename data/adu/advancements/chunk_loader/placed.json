@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:chiseled_polished_blackstone",
+        "item": {
+          "item": "minecraft:chiseled_polished_blackstone",
+          "nbt": "{display:{Name:'{\"italic\":false,\"text\":\"Chunk Loader\"}'}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "adu:core/items/chunk_loader/placed/main"
+  }
+}

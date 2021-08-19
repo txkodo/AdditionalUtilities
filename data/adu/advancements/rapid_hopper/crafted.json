@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "adu:rapid_hopper/_"
+      }
+    }
+  },
+  "rewards": {
+    "function": "adu:core/items/rapid_hopper/craft"
+  }
+}

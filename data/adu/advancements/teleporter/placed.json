@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:blast_furnace",
+        "item": {
+          "item": "minecraft:blast_furnace",
+          "nbt": "{display:{Name:'{\"italic\":false,\"text\":\"Teleporter\"}'}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "adu:core/items/teleporter/placed/main"
+  }
+}

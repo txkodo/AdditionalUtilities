@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "adu:chunk_loader/_"
+      }
+    }
+  },
+  "rewards": {
+    "function": "adu:core/items/chunk_loader/craft"
+  }
+}

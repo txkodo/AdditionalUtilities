@@ -1,0 +1,1 @@
+execute unless block ^ ^ ^1 #adu:unbreakable unless data block ~ ~ ~ Items[{Slot:2b}] run function adu:core/items/breaker/main/main

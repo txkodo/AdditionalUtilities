@@ -1,0 +1,10 @@
+{
+  "enable":false,
+  "type":"sub",
+  "root":"xx",
+  "xx":{
+    "decorators":[{"type":"log_result"}],
+    "type":"wait_score",
+    "arg":{"tick":"20","score":"waitsc"}
+  }
+}

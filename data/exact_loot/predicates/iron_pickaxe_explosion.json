@@ -1,0 +1,13 @@
+{
+  "condition": "alternative",
+  "terms": [
+    {
+      "condition": "reference",
+      "name": "exact_loot:explosion"
+    },
+    {
+      "condition": "reference",
+      "name": "exact_loot:iron_pickaxe"
+    }
+  ]
+}

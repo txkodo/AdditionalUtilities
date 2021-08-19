@@ -1,0 +1,17 @@
+{
+  "condition": "alternative",
+  "terms": [
+    {
+      "condition": "match_tool",
+      "predicate": {
+        "item": "netherite_pickaxe"
+      }
+    },
+    {
+      "condition": "match_tool",
+      "predicate": {
+        "item": "diamond_pickaxe"
+      }
+    }
+  ]
+}

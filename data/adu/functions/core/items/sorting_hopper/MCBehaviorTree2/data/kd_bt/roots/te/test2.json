@@ -1,0 +1,38 @@
+{
+  "enable":true,
+  "type":"sub",
+  "root":"m",
+  "m":{
+    "type":"p-all",
+    "childs":{
+      "move":{
+        "type":"all",
+        "childs":{
+          "move":{
+            "type":"move/toentity",
+            "arg":{"entity":"@p","range":"..1.0","offset":"^ ^ ^0.2"}
+          },
+          "explode":{
+            "type":"explode"
+          },
+          "kill":{
+            "type":"kill_silent"
+          }
+        }
+      },
+      "explode":{
+        "decorators":[{"type":"loop"}],
+        "type":"all",
+        "childs":{
+          "expolde":{
+            "type":"explode"
+          },
+          "wait":{
+            "type":"wait_score",
+            "arg":{"tick":"40","score":"waitsc"}
+          }
+        }
+      }
+    }
+  }
+}

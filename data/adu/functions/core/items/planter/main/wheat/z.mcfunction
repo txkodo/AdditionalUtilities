@@ -1,0 +1,9 @@
+execute if data storage adu:items planter{planted:0b} positioned ^ ^ ^0 run function adu:core/items/planter/main/wheat/plant_check
+execute if data storage adu:items planter{planted:0b} positioned ^ ^ ^1 run function adu:core/items/planter/main/wheat/plant_check
+execute if data storage adu:items planter{planted:0b} positioned ^ ^ ^2 run function adu:core/items/planter/main/wheat/plant_check
+execute if data storage adu:items planter{planted:0b} positioned ^ ^ ^3 run function adu:core/items/planter/main/wheat/plant_check
+execute if data storage adu:items planter{planted:0b} positioned ^ ^ ^4 run function adu:core/items/planter/main/wheat/plant_check
+execute if data storage adu:items planter{planted:0b} positioned ^ ^ ^5 run function adu:core/items/planter/main/wheat/plant_check
+execute if data storage adu:items planter{planted:0b} positioned ^ ^ ^6 run function adu:core/items/planter/main/wheat/plant_check
+execute if data storage adu:items planter{planted:0b} positioned ^ ^ ^7 run function adu:core/items/planter/main/wheat/plant_check
+execute if data storage adu:items planter{planted:0b} positioned ^ ^ ^8 run function adu:core/items/planter/main/wheat/plant_check

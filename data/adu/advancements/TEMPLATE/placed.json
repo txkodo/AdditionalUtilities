@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:BLOCK",
+        "item": {
+          "item": "minecraft:BLOCK",
+          "nbt": "{display:{Name:'{\"italic\":false,\"text\":\"JSON_NAME\"}'}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "adu:core/items/NAME/placed/main"
+  }
+}

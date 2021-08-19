@@ -1,0 +1,4 @@
+{
+  "condition":"location_check",
+  "predicate": {"dimension": "overworld"}
+}

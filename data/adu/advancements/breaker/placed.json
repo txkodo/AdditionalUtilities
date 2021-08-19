@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:furnace",
+        "item": {
+          "item": "minecraft:furnace",
+          "nbt": "{display:{Name:'{\"italic\":false,\"text\":\"Breaker\"}'}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "adu:core/items/breaker/placed/main"
+  }
+}

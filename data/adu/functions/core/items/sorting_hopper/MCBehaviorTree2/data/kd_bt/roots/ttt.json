@@ -1,0 +1,28 @@
+{
+  "type":"each",
+  "enable":false,
+  "$":"kd_bt:test t",
+  "as":"@e[type=minecraft:chicken]",
+  "max":"16",
+  "score":"kdbtt",
+  "tag":"kdbtt",
+  "root":"r",
+  "r":{
+    "decorators":[{"type":"loop"}],
+    "type":"all",
+    "childs":{
+      "a":{
+        "arg":{"exit":"if entity @p[distance=..1]"},
+        "type":"waitfor"
+      },
+      "b":{
+        "type":"log",
+        "arg":{"log":"b"}
+      },
+      "c":{
+        "arg":{"exit":"unless entity @p[distance=..1]"},
+        "type":"waitfor"
+      }
+    }
+  }
+}

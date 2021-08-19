@@ -1,0 +1,1 @@
+execute if data block ~ ~ ~ {BurnTime:0s} run function adu:core/fuel/consume

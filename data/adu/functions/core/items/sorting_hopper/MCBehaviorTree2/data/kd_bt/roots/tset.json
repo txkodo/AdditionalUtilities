@@ -1,0 +1,34 @@
+{
+  "enable":false,
+  "type":"each",
+  "$":"kd_bt:test j",
+  "as":"@e[type=minecraft:cow]",
+  "max":"16",
+  "score":"sc0",
+  "tag":"sc0",
+  "root":"sequence",
+  "sequence":{
+    "type":"p-all",
+    "childs":{
+      "main":{
+        "decorators":[{"type":"loop"}],
+        "type":"all",
+        "childs":{
+          "summon":{
+            "type":"summon_linked",
+            "arg":{"entity":"pig","nbt":"{Tags:[kd_]}"}
+          },
+          "wait1":{
+            "type":"wait_score",
+            "arg":{"tick":"70","score":"waitscc"}
+          }
+        }
+      },
+      "sub":{
+        "decorators":[{"type":"as/all","arg":{"as":"@e[type=minecraft:pig]","max":"24","score":"sc1","tag":"sc1"}}],
+        "type":"SUBTREE",
+        "arg":{"name":"test"}
+      }
+    }
+  }
+}

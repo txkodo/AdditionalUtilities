@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:hopper",
+        "item": {
+          "item": "minecraft:hopper",
+          "nbt": "{display:{Name:'{\"italic\":false,\"text\":\"Rapid Hopper\"}'}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "adu:core/items/rapid_hopper/placed/main"
+  }
+}

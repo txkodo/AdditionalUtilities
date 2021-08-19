@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ITI",
+        "ICI",
+        " Q "
+    ],
+    "key": {
+        "I": {
+            "item": "minecraft:iron_ingot"
+        },
+        "Q": {
+            "item": "minecraft:quartz"
+        },
+        "T": {
+            "item": "minecraft:redstone_torch"
+        },
+        "C": {
+            "item": "minecraft:trapped_chest"
+        }
+    },
+    "result": {
+        "item": "minecraft:structure_void",
+        "count": 1
+    }
+}

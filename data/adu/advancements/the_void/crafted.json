@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "adu:the_void/-"
+      }
+    }
+  },
+  "rewards": {
+    "function": "adu:core/items/the_void/craft"
+  }
+}

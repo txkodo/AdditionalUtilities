@@ -1,0 +1,2 @@
+execute unless block ~ ~ ~ minecraft:blast_furnace{CustomName:'{"italic":false,"text":"Teleporter"}'} run kill @s
+execute if score tick/20 adu matches 2 if data block ~ ~ ~ Items[{Slot:1b}] run function adu:core/items/teleporter/main/main

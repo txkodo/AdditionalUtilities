@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "adu:vacuum_hopper/-"
+      }
+    }
+  },
+  "rewards": {
+    "function": "adu:core/items/vacuum_hopper/craft"
+  }
+}

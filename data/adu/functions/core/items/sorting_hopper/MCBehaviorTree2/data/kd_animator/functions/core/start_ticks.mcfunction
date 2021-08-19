@@ -1,0 +1,1 @@
+data modify storage kd_animation: ticks set value {iron_golem:{stand:{s:0.0,l:21},hit:{s:21.0,l:31},range:{s:52.0,l:73},rotate_enter:{s:125.0,l:10},rotate:{s:135.0,l:10},rotate_end:{s:145.0,l:21}}}

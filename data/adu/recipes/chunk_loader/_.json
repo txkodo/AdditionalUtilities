@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " C ",
+        "gGg",
+        "BBB"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:clock"
+        },
+        "G": {
+            "item": "minecraft:gilded_blackstone"
+        },
+        "g": {
+            "item": "minecraft:glowstone_dust"
+        },
+        "B": {
+            "item": "minecraft:polished_blackstone_bricks"
+        }
+    },
+    "result": {
+        "item": "minecraft:structure_void",
+        "count": 1
+    }
+}

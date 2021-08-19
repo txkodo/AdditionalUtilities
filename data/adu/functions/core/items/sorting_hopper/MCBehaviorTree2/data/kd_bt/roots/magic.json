@@ -1,0 +1,35 @@
+{
+  "enable":false,
+  "type":"each",
+  "arg":{
+    "NS"   :"kd_bt",
+    "DATA" :"kd_bt:test t",
+    "SELF" :"0",
+    "DIR"  :"roots/magic/",
+    "as"   :"@e[type=minecraft:zombie]",
+    "max"  :"16"
+  },
+  "tree_arg":{
+  },
+  "root":{
+    "decorators":[{"type":"loop"}],
+    "type":"all",
+    "childs":{
+      "charge":{
+        "decorators":[{"type":"animation/loop","arg":{"animation":"stan"}}],
+        "arg":{"score":"wait","tick":"20"},
+        "type":"wait_score"
+      },
+      "face":{
+        "decorators":[{"type":"log/do"}],
+        "arg":{"entity":"@p"},
+        "type":"move/lookentity"
+      },
+      "move":{
+        "decorators":[{"type":"animation/loop","arg":{"animation":"move"}}],
+        "arg":{"offset":"^ ^ ^0.5"},
+        "type":"move/untilcollide"
+      }
+    }
+  }
+}

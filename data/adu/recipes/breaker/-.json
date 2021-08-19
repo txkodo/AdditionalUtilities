@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SAP",
+        "ROR",
+        "###"
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:iron_shovel"
+        },
+        "A": {
+            "item": "minecraft:iron_axe"
+        },
+        "P": {
+            "item": "minecraft:iron_pickaxe"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        },
+        "O": {
+            "item": "minecraft:observer"
+        },
+        "#": {
+            "item": "minecraft:smooth_stone"
+        }
+    },
+    "result": {
+        "item": "minecraft:structure_void",
+        "count": 1
+    }
+}

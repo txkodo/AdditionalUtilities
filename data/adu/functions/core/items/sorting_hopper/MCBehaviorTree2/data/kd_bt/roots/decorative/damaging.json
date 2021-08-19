@@ -1,0 +1,28 @@
+{
+  "enable":true,
+  "type":"p-any",
+  "tree_arg":{
+    "damage":null,
+    "cooldown":"10",
+    "target":"10"
+  },
+  "childs":{
+    "damage":{
+      "decorators":[{"type":"loop"}],
+      "type":"all",
+      "childs":{
+        "damage":{
+          "type":"reactive_health/attack",
+          "arg":{"target":"{target}","damage":"{damage}"}
+        },
+        "wait":{
+          "type":"wait_score",
+          "arg":{"score":"wait","tick":"{cooldown}"}
+        }
+      }
+    },
+    "child":{
+      "type":"##TREE_CHILD"
+    }
+  }
+}

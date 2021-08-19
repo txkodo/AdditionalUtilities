@@ -1,0 +1,18 @@
+{
+  "enable":false,
+  "$":"kd_bt:test t",
+  "as":"@e[type=minecraft:chicken]",
+  "max":"16",
+  "score":"kdbtt",
+  "tag":"kdbtt",
+  "root":"r",
+  "r":{
+    "type":"all",
+    "childs":{
+      "wait":{
+        "arg":{"exit":"positioned ^ ^ ^3 if entity @p[distance=..5]"},
+        "type":"log"
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+summon armor_stand ~ ~-OFFSET ~ {Marker:1b,Invulnerable:1b,Invisible:1b,Tags:[adu,adu.NAME],ArmorItems:[{},{},{},{Count:1b,id:"minecraft:iron_block"}]}

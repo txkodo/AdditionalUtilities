@@ -1,0 +1,7 @@
+{
+  "values": [
+    "kd_bt:reset_",
+    "kd_bt:init",
+    "kd_animator:core/load"
+  ]
+}
