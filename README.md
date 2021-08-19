@@ -41,4 +41,4 @@ minecraft内で下記コマンドを打つ
 
 目の前にあるブロックを内部インベントリのツールで破壊する。
 
-![breaker](readme_img\breaker.png)
+![breaker](readme_img/breaker.png)
