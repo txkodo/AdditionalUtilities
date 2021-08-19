@@ -41,4 +41,14 @@ minecraft内で下記コマンドを打つ
 
 目の前にあるブロックを内部インベントリのツールで破壊する。
 
-![breaker](readme_img\breaker.png)
+![breaker](readme_img/breaker.png)
+
+左上スロットに破壊ツールを入れることで正面のブロックを破壊し、右スロットに採掘結果が入る。
+
+
+
+#### chunk_loader
+
+設置されたチャンクを常に読み込む。
+
+![chunk_loader](readme_img/chunk_loader.png)
